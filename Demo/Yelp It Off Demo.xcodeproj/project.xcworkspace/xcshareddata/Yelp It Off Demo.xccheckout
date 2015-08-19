@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4ED0129-FEB2-4C31-BE53-7D1814EE05C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Yelp It Off Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F75F11545D572B72B83C060E8916FF9B9AE0F13</key>
+		<string>github.com:dalequi/yelpitoff.git</string>
+		<key>A65BCAA9B7A77500BBF95593800C3F1B9D215F5E</key>
+		<string>https://github.com/dongri/OAuthSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Yelp It Off Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F75F11545D572B72B83C060E8916FF9B9AE0F13</key>
+		<string>../../..</string>
+		<key>A65BCAA9B7A77500BBF95593800C3F1B9D215F5E</key>
+		<string>../../..Demo/OAuthSwift/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:dalequi/yelpitoff.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F75F11545D572B72B83C060E8916FF9B9AE0F13</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A65BCAA9B7A77500BBF95593800C3F1B9D215F5E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OAuthSwift</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F75F11545D572B72B83C060E8916FF9B9AE0F13</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yelpitoff</string>
+		</dict>
+	</array>
+</dict>
+</plist>
