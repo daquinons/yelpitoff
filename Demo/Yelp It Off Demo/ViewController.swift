@@ -16,27 +16,27 @@ class ViewController: UIViewController {
     
     @IBAction func searchForBurgerPlaces() {
         client.searchPlacesWithParameters(["ll": "37.788022,-122.399797", "category_filter": "burgers", "radius_filter": "3000", "sort": "0"], successSearch: { (data, response) -> Void in
-            println(NSString(data: data, encoding: NSUTF8StringEncoding))
+            print(NSString(data: data, encoding: NSUTF8StringEncoding))
         }) { (error) -> Void in
-            println(error)
+            print(error)
         }
         
     }
     
     @IBAction func getBusinessInfo() {
         client.getBusinessInformationOf("custom-burger-san-francisco", successSearch: { (data, response) -> Void in
-            println(NSString(data: data, encoding: NSUTF8StringEncoding))
+            print(NSString(data: data, encoding: NSUTF8StringEncoding))
         }) { (error) -> Void in
-            println(error)
+            print(error)
         }
         
     }
     
     @IBAction func searchTelephone() {
         client.searchBusinessWithPhone("+1-646-237-5035", successSearch: { (data, response) -> Void in
-            println(NSString(data: data, encoding: NSUTF8StringEncoding))
+            print(NSString(data: data, encoding: NSUTF8StringEncoding))
         }) { (error) -> Void in
-            println(error)
+            print(error)
         }
     }
     override func viewDidLoad() {

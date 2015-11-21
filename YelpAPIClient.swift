@@ -18,7 +18,7 @@ struct YelpAPIConsole {
 
 class YelpAPIClient: NSObject {
     
-    let APIBaseUrl = "http://api.yelp.com/v2/"
+    let APIBaseUrl = "https://api.yelp.com/v2/"
     let clientOAuth: OAuthSwiftClient?
     let apiConsoleInfo: YelpAPIConsole
 

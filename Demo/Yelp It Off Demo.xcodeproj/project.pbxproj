@@ -53,6 +53,20 @@
 			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
 			remoteInfo = OAuthSwiftOSX;
 		};
+		63807C151C00129C00E357A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6351FDE51B85041500D4BB8D /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
+			remoteInfo = OAuthSwiftTVOS;
+		};
+		63807C171C00129C00E357A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6351FDE51B85041500D4BB8D /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
+			remoteInfo = OAuthSwiftTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -163,10 +177,12 @@
 		6351FDE61B85041500D4BB8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6351FDED1B85041500D4BB8D /* OAuthSwiftDemo.app */,
 				6351FDEF1B85041500D4BB8D /* OAuthSwift.framework */,
+				6351FDED1B85041500D4BB8D /* OAuthSwiftDemo.app */,
+				6351FDF31B85041500D4BB8D /* OAuthSwift.framework */,
 				6351FDF11B85041500D4BB8D /* OAuthSwiftOSXDemo.app */,
-				6351FDF31B85041500D4BB8D /* OAuthSwiftOSX.framework */,
+				63807C161C00129C00E357A2 /* OAuthSwiftTVOS.framework */,
+				63807C181C00129C00E357A2 /* OAuthSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,7 +232,8 @@
 		6351FD981B83B63A00D4BB8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = dlqapps;
 				TargetAttributes = {
 					6351FD9F1B83B63A00D4BB8D = {
@@ -275,11 +292,25 @@
 			remoteRef = 6351FDF01B85041500D4BB8D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6351FDF31B85041500D4BB8D /* OAuthSwiftOSX.framework */ = {
+		6351FDF31B85041500D4BB8D /* OAuthSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = OAuthSwiftOSX.framework;
+			path = OAuthSwift.framework;
 			remoteRef = 6351FDF21B85041500D4BB8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63807C161C00129C00E357A2 /* OAuthSwiftTVOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwiftTVOS.framework;
+			remoteRef = 63807C151C00129C00E357A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63807C181C00129C00E357A2 /* OAuthSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuthSwiftTests.xctest;
+			remoteRef = 63807C171C00129C00E357A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -374,6 +405,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -442,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yelp It Off Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dlqapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -452,6 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yelp It Off Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dlqapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -470,6 +504,7 @@
 				);
 				INFOPLIST_FILE = "Yelp It Off DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dlqapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp It Off Demo.app/Yelp It Off Demo";
 			};
@@ -485,6 +520,7 @@
 				);
 				INFOPLIST_FILE = "Yelp It Off DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dlqapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp It Off Demo.app/Yelp It Off Demo";
 			};
