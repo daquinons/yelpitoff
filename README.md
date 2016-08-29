@@ -1,6 +1,5 @@
-# Yelp It Off
+# Yelp It Off ** DEPRECATED **
 Wrapper for Yelp API v.2.0 written in Swift.
-** Work In Progress **
 
 ![Image of Yelp It Off](http://i.imgur.com/2pEIiTu.png)
 
